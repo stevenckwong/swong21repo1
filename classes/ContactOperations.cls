@@ -1,6 +1,8 @@
 public class ContactOperations {
     public static Contact setDefaultDescription(Contact a) {
         a.Description = 'Default Description';
+        //Test dev 1 update
+        System.debug('print contact: '+a);
         return a;
     }
 
