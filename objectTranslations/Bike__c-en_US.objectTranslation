@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Bike</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Bikes</value>
+    </caseValues>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Electric Bike</masterLabel>
+            <translation><!-- Electric Bike --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mountain bike</masterLabel>
+            <translation><!-- Mountain bike --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Road bike</masterLabel>
+            <translation><!-- Road bike --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

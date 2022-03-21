@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Movie</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Movies</value>
+    </caseValues>
+    <fields>
+        <label><!-- Synopsis --></label>
+        <name>Synopsis__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select 1st January of the Year the movie was released to public --></help>
+        <label><!-- Year --></label>
+        <name>Year__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
