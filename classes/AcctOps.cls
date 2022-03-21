@@ -11,6 +11,8 @@ public class AcctOps {
         a.billingstreet = '535 Mission Street, 15th floor'; // DEV 1 updates
         a.billingstate = 'California';
         a.billingpostalcode ='94105'; // DEV 2 updates
+        //Test dev 1 update
+        System.debug('print account: '+a);
         return a;
     }
     public static Account setDefaultShippingAddress(Account a){//DEV 1
