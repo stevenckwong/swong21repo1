@@ -326,6 +326,16 @@
         <type>Picklist</type>
     </fields>
     <fields>
+        <fullName>Valid_Account__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>default to true</description>
+        <externalId>false</externalId>
+        <inlineHelpText>default to true</inlineHelpText>
+        <label>Valid Account?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
         <fullName>Website</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
