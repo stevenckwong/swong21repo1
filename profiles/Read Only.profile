@@ -7118,6 +7118,11 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>TP_Test_Object__c.TP_Text__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Task.ActivityDate</field>
         <readable>true</readable>
@@ -12590,6 +12595,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Solution-Solution Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>TP_Test_Object__c-TP Test Object Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
