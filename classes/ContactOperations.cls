@@ -3,13 +3,14 @@ public class ContactOperations {
         a.Description = 'Default Description';
         //Test dev 1 update
         System.debug('print contact: '+a);
+        System.debug('setDefaultDescription - This is a test from Dev 1');
         return a;
     }
 
     public static Contact setDefaultFirstName(Contact c) {
         c.FirstName = 'Default First Name';
         //Test dev 1 update
-        System.debug('print contact: '+c);
+        System.debug('setDefaultFirstName - This is a test from Dev 1');
         return c;
     }
 
