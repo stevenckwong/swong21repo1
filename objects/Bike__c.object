@@ -155,6 +155,7 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Type__c</fullName>
+        <description>Added description POC testing - specific profile</description>
         <externalId>false</externalId>
         <label>Type</label>
         <required>false</required>
@@ -178,6 +179,26 @@
                     <fullName>Electric Bike</fullName>
                     <default>false</default>
                     <label>Electric Bike</label>
+                </value>
+                <value>
+                    <fullName>New Bike</fullName>
+                    <default>false</default>
+                    <label>New Bike</label>
+                </value>
+                <value>
+                    <fullName>Old Bike</fullName>
+                    <default>false</default>
+                    <label>Old Bike</label>
+                </value>
+                <value>
+                    <fullName>Big Bike</fullName>
+                    <default>false</default>
+                    <label>Big Bike</label>
+                </value>
+                <value>
+                    <fullName>Small Bike</fullName>
+                    <default>false</default>
+                    <label>Small Bike</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
